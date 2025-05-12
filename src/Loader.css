@@ -1,0 +1,25 @@
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white; /* White background for the application */
+}
+
+.spinner {
+    width: 120px;
+    height: 120px;
+    border: 16px solid transparent;
+    border-top: 16px solid #3498db; /* Blue color */
+    border-right: 16px solid #e74c3c; /* Red color */
+    border-bottom: 16px solid #f39c12; /* Orange color */
+    border-left: 16px solid #9b59b6; /* Purple color */
+    border-radius: 50%;
+    animation: spin 1.5s linear infinite;
+}
+
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

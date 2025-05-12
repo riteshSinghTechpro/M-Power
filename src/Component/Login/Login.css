@@ -1,0 +1,251 @@
+
+body{
+      font-feature-settings: "salt";
+      background-image: url(https://templates.seekviral.com/trimba3/forms/InterestingQuiz/assets/images/bg.jpg) !important;
+      height: 100%;
+      background-size: cover !important;
+}
+.container {
+    display: flex;
+     justify-content: center; 
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-form {
+    background-color: rgb(248, 249, 250);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; 
+  }
+  
+  .login_btn {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(1 147 118);;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  } 
+    
+  .rester_btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #3f51b5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  } 
+  
+  button:hover {
+    background-color: #3f51b5;
+  }
+  
+  .rester_btn{
+     margin-top: 20px;
+  }  
+
+  .login-bg{
+    box-shadow: none !important;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    overflow: hidden;
+    border-width: 1px;
+    border-style: solid;
+    border-image: initial;
+    border-radius: 12px;
+    border-color: rgba(219, 224, 229, 0.65);
+  }
+  .auth-wrapper {
+    max-width: 400px !important;
+    max-width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin: auto !important;
+}
+  .sign-bt{
+    height: 45px;
+    background-color: rgb(106, 93, 227) !important;
+    /* font-size: 1rem !important; */
+    text-transform: capitalize !important;
+    margin-top: 20px !important;
+    box-shadow: none !important;
+    font-weight: 400 !important;
+    font-size: 0.9375rem !important;
+    line-height: 1.99 !important;
+    border-radius: 8px !important;
+  }
+  
+  .css-ahj2mt-MuiTypography-root {
+    margin: 0;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+  }
+  .css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.Mui-checked, .css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.MuiCheckbox-indeterminate {
+    color: #3f51b5;
+  }
+  .css-1sfkfgq{
+    -webkit-align-items: start !important;
+    -webkit-box-align: start !important;
+    -ms-flex-align: start !important;
+    align-items: start !important;
+  }
+  .sign-in{
+    font-size: 1.4rem;
+    font-weight: 600;;
+    color: rgb(29, 38, 48);
+  }  
+  .md-30{
+    margin-bottom: 30px;
+  }
+  .sign-up{
+    color: #96a2b4;
+    font-size: 1rem;
+    margin-top: 5px;
+  }
+  .css-1xylxj1-MuiTypography-root-MuiLink-root {
+    margin: 0;
+    font: inherit;
+    color: #1976d2;
+    -webkit-text-decoration: none !important;
+    text-decoration: none !important;
+    text-decoration-color: rgba(25, 118, 210, 0.4);
+  }
+  .css-164r41r {
+    margin-top: 0px !important;
+  }
+  .css-101ca9i-MuiTypography-root-MuiLink-root{
+  color: rgb(13 110 253);
+  }
+
+  .main-logocss img{
+    width: auto !important;
+    margin-top: 30px;
+  }
+
+  .forgotpassword{
+    width: 100%;
+  }
+  .backtologin{
+    text-align: left;
+    margin-top: 15px;
+  }
+  .backtologin svg{
+    margin-top: 5px;
+    position: absolute;
+    margin-left: -20px;
+    font-size: 14px;
+  }
+
+  .css-1vhaqj4-MuiButtonBase-root-MuiButton-root{
+    margin-bottom: 0px !important;
+  }
+
+  .bg_login label{
+    font-size: 0.95rem;
+    line-height: 1.4375em;
+    /* font-family: "Inter var"; */
+    font-weight: 400;
+    position: relative;
+    display: block;
+    transform-origin: left top;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    color: rgb(91, 107, 121);
+    padding: 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    transition: color 200ms cubic-bezier(0, 0, 0.2, 1), transform 200ms cubic-bezier(0, 0, 0.2, 1), max-width 200ms cubic-bezier(0, 0, 0.2, 1);
+    margin-top: 20px;
+    margin-bottom: 8px;
+  }
+  .inputlogin{
+    margin:0px !important
+  }
+
+  .inputlogin input{
+    font: inherit;
+    letter-spacing: inherit;
+    color: currentcolor;
+    border: 0px;
+    box-sizing: content-box;
+    background: none;
+    height: 1.4375em;
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    min-width: 0px;
+    width: 100%;
+    animation-name: mui-auto-fill-cancel;
+    animation-duration: 10ms;
+    padding: 12px;
+    color: rgb(29, 38, 48);
+    font-size: 0.875rem;
+  }
+  .remember span{
+    font-weight: 400 !important;
+    font-size: 0.875rem !important;
+    line-height: 1.57 !important;
+    color: rgb(29, 38, 48) !important;
+    margin-top: 0px;
+  }
+  .login-forgot{
+    text-align: right;
+    padding-top: 35px;
+  }
+
+  .login-forgot a{
+    font-weight: 400;
+    font-size: 0.845rem;
+    text-decoration: none;
+    color: rgb(29, 38, 48);
+  }
+
+  
+.css-1nkhxq8-MuiTypography-root {
+  letter-spacing: 0.00938em;
+  color: #d32f2f;
+  font-weight: 400;
+  font-size: 0.75rem !important;
+  line-height: 1.66;
+  text-align: left;
+  margin: 10px 0px 0px !important;
+}
+
+.backtologin a{
+  margin: 0px;
+  font-size: 0.875rem;
+  line-height: 1.57;
+  font-weight: 400;
+  color: rgb(114, 101, 230);
+  text-decoration: none;
+}
+
+.mt-30{
+  margin-top: 30px !important;
+}

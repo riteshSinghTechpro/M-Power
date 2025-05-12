@@ -1,0 +1,34 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/.vs/staff_central-web/FileContentIndex/e0acbce9-fb4e-42d8-ab65-6ffe4759c386.vsidx
+/.vs/staff_central-web/FileContentIndex/4f87dd27-1373-45f1-b8c0-71dcd0eec90f.vsidx
+/.vs/staff_central-web/FileContentIndex/90afa359-05b3-4c41-a7cc-0087124d1b32.vsidx
+/.vs/staff_central-web/FileContentIndex/9efa9f06-dbff-4ea7-b4bb-0b62bcb5af4d.vsidx
+/.vs/staff_central-web/FileContentIndex/77a75dfc-9ed3-4a61-941f-0ec0b23aa680.vsidx
+/.vs/staff_central-web/v17
+/.vs/staff_central-web/v17/.wsuo
+/public/img/StaffCentral.png
+/.vs/VSWorkspaceState.json
+/.vs/slnx.sqlite
+/.vs/staff_central-web/FileContentIndex
